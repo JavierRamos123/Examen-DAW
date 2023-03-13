@@ -1,0 +1,64 @@
+#map {
+  height: 100vh;
+}
+
+.row>* {
+    padding: 0 !important;
+}
+
+.location-box{
+    background-color: white !important;
+    height: 25%;
+    border: 0.2px solid rgb(185, 185, 185, 0.7);
+    padding-top: 5%;
+    padding-inline: 5%;
+}
+
+.modal{
+    position: fixed !important;
+    background-color: rgb(255, 255, 255);
+    display: flex !important;
+    height: 40%!important;
+    width: 35% !important;
+    left: 30% !important;
+    top: 30% !important;
+    border-radius: 6px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
+  }
+
+  .boton{
+    margin-top: 1%;
+    width: fit-content;
+    padding-inline: 2%;
+    position: relative;
+    right: -85%;
+    border-radius: 4px;
+    border: none;
+    background-color: #2424ff;
+    color:white;
+  }
+
+  .modal-main-content{
+    margin-bottom: 8%;
+  }
+
+  .calle{
+    background-color: rgb(61 61 255);
+    width: fit-content;
+    padding-inline: 9px;
+    border-radius: 4px;
+    color: white;
+    bottom: -10%;
+    position: relative;
+  }
